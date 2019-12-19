@@ -13,7 +13,7 @@ puts message
 
 end
 
-def take_a_number(katz_deli,"")
+def take_a_number(katz_deli,"Ada")
 takenum = "Welcome, #{name}."
 names.each_with_index {|name, index| takenum << "You are number #{index} in line."}
 puts takenum
