@@ -15,7 +15,6 @@ end
 
 name = ""
 def take_a_number(katz_deli,name)
-takenum = "Welcome, #{name}."
-names.each_with_index {|name, index| takenum << "You are number #{index} in line."}
-puts takenum
+"katz_deli << name"
+puts "Welcome, #{name}.  You are number #{katz_deli.length} in line."
 end
